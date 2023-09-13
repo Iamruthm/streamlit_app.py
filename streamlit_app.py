@@ -7,5 +7,5 @@ streamlit.text('🐔Hard-Boiled Free-Range Egg')
 streamlit.text ('🥑🍞 Avacado Toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 import Pandas 
-my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+my_fruit_list = pandas.read_csv("https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html")
 streamlit.dataframe(my_fruit_list)
